@@ -1,1 +1,6 @@
 ./appSettings.json
+./*/bin
+./*/obj
+./*/*/obj
+./*/*/bin
+./idea
