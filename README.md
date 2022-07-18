@@ -2,7 +2,7 @@
 Hello! For information about me please refer to the main branch's [README.MD](https://github.com/Ayano-Discord/Ayano/blob/main/README.md).
 
 ## V1/CSharp
-Hello there! Welcome to the CSharp version of Ayano. This code will most likely not be maintained but any PRs (Please read to more info about this below) are welcome! A new version for Ayano is being rewritten in Rust and is available on the V1/Rust](https://github.com/Ayano-Discord/Ayano/tree/V1/Rust) branch.
+Hello there! Welcome to the CSharp version of Ayano. This code will most likely not be maintained but any PRs (Please read to more info about this below) are welcome! A new version for Ayano is being rewritten in Rust and is available on the [V1/Rust](https://github.com/Ayano-Discord/Ayano/tree/V1/Rust) branch.
 
 This version was written to use Remora.Discord to communicate with the discord API. 
 
