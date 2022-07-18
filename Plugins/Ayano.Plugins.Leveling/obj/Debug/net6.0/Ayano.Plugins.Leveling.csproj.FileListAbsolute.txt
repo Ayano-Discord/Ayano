@@ -1,0 +1,17 @@
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\Ayano.Plugins.Leveling.csproj.AssemblyReference.cache
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\Ayano.Plugins.Leveling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\Ayano.Plugins.Leveling.AssemblyInfoInputs.cache
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\Ayano.Plugins.Leveling.AssemblyInfo.cs
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\Ayano.Plugins.Leveling.csproj.CoreCompileInputs.cache
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\bin\Debug\net6.0\Ayano.Plugins.Leveling.deps.json
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\bin\Debug\net6.0\Ayano.Plugins.Leveling.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\bin\Debug\net6.0\Ayano.Plugins.Leveling.pdb
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\bin\Debug\net6.0\Ayano.Core.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\bin\Debug\net6.0\Ayano.Core.pdb
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\Ayano.Plugins.Leveling.csproj.CopyComplete
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\Ayano.Plugins.Leveling.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\refint\Ayano.Plugins.Leveling.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\Ayano.Plugins.Leveling.pdb
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\obj\Debug\net6.0\ref\Ayano.Plugins.Leveling.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\bin\Debug\net6.0\Ayano.Plugins.Dev.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Leveling\bin\Debug\net6.0\Ayano.Plugins.Dev.pdb

@@ -1,0 +1,17 @@
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\bin\Debug\net6.0\Ayano.Plugins.Info.deps.json
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\bin\Debug\net6.0\Ayano.Plugins.Info.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\bin\Debug\net6.0\Ayano.Plugins.Info.pdb
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\Ayano.Plugins.Info.csproj.AssemblyReference.cache
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\Ayano.Plugins.Info.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\Ayano.Plugins.Info.AssemblyInfoInputs.cache
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\Ayano.Plugins.Info.AssemblyInfo.cs
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\Ayano.Plugins.Info.csproj.CoreCompileInputs.cache
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\Ayano.Plugins.Info.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\refint\Ayano.Plugins.Info.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\Ayano.Plugins.Info.pdb
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\ref\Ayano.Plugins.Info.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\bin\Debug\net6.0\Ayano.Core.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\bin\Debug\net6.0\Ayano.Core.pdb
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\obj\Debug\net6.0\Ayano.Plugins.Info.csproj.CopyComplete
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\bin\Debug\net6.0\Ayano.Plugins.Dev.dll
+C:\Users\aryan\Documents\GitHub\Ayano\Plugins\Ayano.Plugins.Info\bin\Debug\net6.0\Ayano.Plugins.Dev.pdb

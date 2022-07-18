@@ -1,0 +1,1660 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ayano.Plugins.Fun/1.0.0": {
+        "dependencies": {
+          "Ayano.Core": "1.0.0",
+          "GTranslate": "2.1.0",
+          "Newtonsoft.Json": "13.0.2-beta1",
+          "Remora.Discord": "2022.43.0",
+          "Remora.Plugins": "3.0.4",
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "Ayano.Plugins.Fun.dll": {}
+        }
+      },
+      "ArgonautCore/1.5.3": {
+        "runtime": {
+          "lib/netstandard2.1/ArgonautCore.dll": {
+            "assemblyVersion": "1.5.3.0",
+            "fileVersion": "1.5.3.0"
+          }
+        }
+      },
+      "FuzzySharp/2.0.2": {
+        "runtime": {
+          "lib/netcoreapp2.1/FuzzySharp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "GTranslate/2.1.0": {
+        "runtime": {
+          "lib/net6.0/GTranslate.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Humanizer.Core/2.14.1": {
+        "runtime": {
+          "lib/net6.0/Humanizer.dll": {
+            "assemblyVersion": "2.14.0.0",
+            "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "JetBrains.Annotations/2022.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "4242.42.42.42",
+            "fileVersion": "2022.1.0.0"
+          }
+        }
+      },
+      "JsonDocumentPath/1.0.3": {
+        "runtime": {
+          "lib/net6.0/JsonDocumentPath.dll": {
+            "assemblyVersion": "1.0.0.3",
+            "fileVersion": "1.0.0.3"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Analyzers/3.3.3": {},
+      "Microsoft.CodeAnalysis.Common/4.3.0-2.final": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.3",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Memory": "4.5.4",
+          "System.Reflection.Metadata": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.300.22.30707"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/4.3.0-2.final": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "4.3.0-2.final"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.300.22.30707"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp.Scripting/4.3.0-2.final": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.CodeAnalysis.CSharp": "4.3.0-2.final",
+          "Microsoft.CodeAnalysis.Common": "4.3.0-2.final",
+          "Microsoft.CodeAnalysis.Scripting.Common": "4.3.0-2.final"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Scripting.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.300.22.30707"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Scripting.Common/4.3.0-2.final": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "4.3.0-2.final"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Scripting.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.300.22.30707"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.EntityFrameworkCore/7.0.0-preview.5.22302.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0-preview.5.22302.2",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.0-preview.5.22302.2",
+          "Microsoft.Extensions.Caching.Memory": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30202"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.0-preview.5.22302.2": {
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30202"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.0-preview.5.22302.2": {},
+      "Microsoft.Extensions.Caching.Abstractions/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.StackExchangeRedis/6.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12",
+          "StackExchange.Redis": "2.2.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll": {
+            "assemblyVersion": "6.0.6.0",
+            "fileVersion": "6.0.622.26805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.5.22301.12": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Http/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Logging": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12"
+        }
+      },
+      "Microsoft.Extensions.Http.Polly/6.0.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0",
+          "Polly": "7.2.3",
+          "Polly.Extensions.Http": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {
+            "assemblyVersion": "6.0.6.0",
+            "fileVersion": "6.0.622.26805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.5.22301.12": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0-preview.5.22301.12": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.30112"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2-beta1": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.26916"
+          }
+        }
+      },
+      "NGettext/0.6.7": {
+        "runtime": {
+          "lib/netstandard2.0/NGettext.dll": {
+            "assemblyVersion": "0.6.1.0",
+            "fileVersion": "0.6.1.0"
+          }
+        }
+      },
+      "OneOf/3.0.223": {
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Pipelines.Sockets.Unofficial/2.2.0": {
+        "dependencies": {
+          "System.IO.Pipelines": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.2.0.45337"
+          }
+        }
+      },
+      "Polly/7.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.3.0"
+          }
+        }
+      },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "dependencies": {
+          "Polly": "7.2.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "prometheus-net/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Prometheus.NetCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          },
+          "lib/net6.0/Prometheus.NetStandard.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "prometheus-net.AspNetCore/6.0.0": {
+        "dependencies": {
+          "prometheus-net": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Remora.Commands/10.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12",
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Commands.dll": {
+            "assemblyVersion": "10.0.1.0",
+            "fileVersion": "10.0.1.0"
+          }
+        }
+      },
+      "Remora.Discord/2022.43.0": {
+        "dependencies": {
+          "Remora.Discord.Caching": "30.0.4",
+          "Remora.Discord.Commands": "25.1.1",
+          "Remora.Discord.Extensions": "5.0.1",
+          "Remora.Discord.Hosting": "5.0.23",
+          "Remora.Discord.Interactivity": "4.2.1",
+          "Remora.Discord.Pagination": "3.0.3"
+        }
+      },
+      "Remora.Discord.API/64.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12",
+          "Remora.Discord.API.Abstractions": "68.0.0",
+          "Remora.Rest": "2.0.4",
+          "System.Text.Json": "6.0.5"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.API.dll": {
+            "assemblyVersion": "64.0.0.0",
+            "fileVersion": "64.0.0.0"
+          }
+        }
+      },
+      "Remora.Discord.API.Abstractions/68.0.0": {
+        "dependencies": {
+          "OneOf": "3.0.223",
+          "Remora.Rest.Core": "2.0.2",
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.API.Abstractions.dll": {
+            "assemblyVersion": "68.0.0.0",
+            "fileVersion": "68.0.0.0"
+          }
+        }
+      },
+      "Remora.Discord.Caching/30.0.4": {
+        "dependencies": {
+          "Remora.Discord.Caching.Abstractions": "1.0.1",
+          "Remora.Discord.Gateway": "10.1.3"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Caching.dll": {
+            "assemblyVersion": "30.0.4.0",
+            "fileVersion": "30.0.4.0"
+          }
+        }
+      },
+      "Remora.Discord.Caching.Abstractions/1.0.1": {
+        "dependencies": {
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Caching.Abstractions.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Remora.Discord.Caching.Redis/1.0.18": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.StackExchangeRedis": "6.0.6",
+          "Remora.Discord.Caching": "30.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Caching.Redis.dll": {
+            "assemblyVersion": "1.0.18.0",
+            "fileVersion": "1.0.18.0"
+          }
+        }
+      },
+      "Remora.Discord.Commands/25.1.1": {
+        "dependencies": {
+          "FuzzySharp": "2.0.2",
+          "Humanizer.Core": "2.14.1",
+          "NGettext": "0.6.7",
+          "Remora.Commands": "10.0.1",
+          "Remora.Discord.Gateway": "10.1.3",
+          "Remora.Extensions.Options.Immutable": "1.0.3",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Commands.dll": {
+            "assemblyVersion": "25.1.1.0",
+            "fileVersion": "25.1.1.0"
+          }
+        }
+      },
+      "Remora.Discord.Extensions/5.0.1": {
+        "dependencies": {
+          "Remora.Discord.API": "64.0.0",
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Extensions.dll": {
+            "assemblyVersion": "5.0.1.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "Remora.Discord.Gateway/10.1.3": {
+        "dependencies": {
+          "Remora.Discord.Rest": "40.0.4",
+          "Remora.Extensions.Options.Immutable": "1.0.3",
+          "System.Threading.Channels": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Gateway.dll": {
+            "assemblyVersion": "10.1.3.0",
+            "fileVersion": "10.1.3.0"
+          }
+        }
+      },
+      "Remora.Discord.Hosting/5.0.23": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0",
+          "Remora.Discord.Gateway": "10.1.3",
+          "Remora.Extensions.Options.Immutable": "1.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Hosting.dll": {
+            "assemblyVersion": "5.0.23.0",
+            "fileVersion": "5.0.23.0"
+          }
+        }
+      },
+      "Remora.Discord.Interactivity/4.2.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "7.0.0-preview.5.22301.12",
+          "Remora.Discord.Commands": "25.1.1",
+          "Remora.Discord.Gateway": "10.1.3"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Interactivity.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.2.1.0"
+          }
+        }
+      },
+      "Remora.Discord.Pagination/3.0.3": {
+        "dependencies": {
+          "Remora.Discord.Interactivity": "4.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Pagination.dll": {
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.3.0"
+          }
+        }
+      },
+      "Remora.Discord.Rest/40.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.Http.Polly": "6.0.6",
+          "Polly": "7.2.3",
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
+          "Remora.Discord.API": "64.0.0",
+          "Remora.Discord.Caching.Abstractions": "1.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Discord.Rest.dll": {
+            "assemblyVersion": "40.0.4.0",
+            "fileVersion": "40.0.4.0"
+          }
+        }
+      },
+      "Remora.Extensions.Options.Immutable/1.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "7.0.0-preview.5.22301.12"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Extensions.Options.Immutable.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Remora.Plugins/3.0.4": {
+        "dependencies": {
+          "Remora.Extensions.Options.Immutable": "1.0.3",
+          "Remora.Plugins.Abstractions": "4.0.4",
+          "System.Linq.Async": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Plugins.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        }
+      },
+      "Remora.Plugins.Abstractions/4.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.5.22301.12",
+          "Remora.Results": "7.2.1"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Plugins.Abstractions.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.0.4.0"
+          }
+        }
+      },
+      "Remora.Rest/2.0.4": {
+        "dependencies": {
+          "JsonDocumentPath": "1.0.3",
+          "Microsoft.Extensions.Http": "6.0.0",
+          "OneOf": "3.0.223",
+          "Remora.Rest.Core": "2.0.2",
+          "Remora.Results": "7.2.1",
+          "System.Text.Json": "6.0.5"
+        },
+        "runtime": {
+          "lib/net6.0/Remora.Rest.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Remora.Rest.Core/2.0.2": {
+        "runtime": {
+          "lib/net6.0/Remora.Rest.Core.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+      "Remora.Results/7.2.1": {
+        "runtime": {
+          "lib/net6.0/Remora.Results.dll": {
+            "assemblyVersion": "7.2.1.0",
+            "fileVersion": "7.2.1.0"
+          }
+        }
+      },
+      "Serilog/2.11.1-dev-01397": {
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.11.1.0"
+          }
+        }
+      },
+      "StackExchange.Redis/2.2.4": {
+        "dependencies": {
+          "Pipelines.Sockets.Unofficial": "2.2.0",
+          "System.Diagnostics.PerformanceCounter": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/StackExchange.Redis.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.4.27433"
+          }
+        }
+      },
+      "System.Collections.Immutable/5.0.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Configuration.ConfigurationManager/5.0.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "5.0.0",
+          "System.Security.Permissions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.Win32.Registry": "5.0.0",
+          "System.Configuration.ConfigurationManager": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.IO.Pipelines/5.0.0": {},
+      "System.Linq.Async/6.0.1": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Linq.Async.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.35981"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Reflection.Metadata/5.0.0": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Permissions/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Windows.Extensions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "System.Text.Encoding.CodePages/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.5": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.622.26707"
+          }
+        }
+      },
+      "System.Threading.Channels/6.0.0": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {},
+      "System.Windows.Extensions/5.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Ayano.Core/1.0.0": {
+        "dependencies": {
+          "ArgonautCore": "1.5.3",
+          "Ayano.Plugins.Dev": "1.0.0",
+          "JetBrains.Annotations": "2022.1.0",
+          "Microsoft.Extensions.Configuration": "7.0.0-preview.5.22301.12",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0-preview.5.22301.12",
+          "Newtonsoft.Json": "13.0.2-beta1",
+          "Remora.Discord": "2022.43.0",
+          "Remora.Discord.Caching.Redis": "1.0.18",
+          "Serilog": "2.11.1-dev-01397",
+          "prometheus-net.AspNetCore": "6.0.0"
+        },
+        "runtime": {
+          "Ayano.Core.dll": {}
+        }
+      },
+      "Ayano.Plugins.Dev/1.0.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp": "4.3.0-2.final",
+          "Microsoft.CodeAnalysis.CSharp.Scripting": "4.3.0-2.final",
+          "Microsoft.EntityFrameworkCore": "7.0.0-preview.5.22302.2",
+          "Remora.Commands": "10.0.1",
+          "Remora.Discord": "2022.43.0",
+          "Remora.Plugins": "3.0.4"
+        },
+        "runtime": {
+          "Ayano.Plugins.Dev.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ayano.Plugins.Fun/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArgonautCore/1.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BBgLpAHQErM4bIyup2tnRVfQ07IitSg3z51hQ/crToQ7bRTdj9lHHer5EJqw1lHNB5D7+Qbe84ARUt8p9ZuyEA==",
+      "path": "argonautcore/1.5.3",
+      "hashPath": "argonautcore.1.5.3.nupkg.sha512"
+    },
+    "FuzzySharp/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sBKqWxw3g//peYxDZ8JipRlyPbIyBtgzqBVA5GqwHVeqtIrw75maGXAllztf+1aJhchD+drcQIgf2mFho8ZV8A==",
+      "path": "fuzzysharp/2.0.2",
+      "hashPath": "fuzzysharp.2.0.2.nupkg.sha512"
+    },
+    "GTranslate/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-foQjHkS20zvxUZMAXpnS+lWfW9Th58Gs5q/bYTVQS9rZjGfnUmUNHT1MzbrXtcB46lNfegCrfRRAU8xkWO5row==",
+      "path": "gtranslate/2.1.0",
+      "hashPath": "gtranslate.2.1.0.nupkg.sha512"
+    },
+    "Humanizer.Core/2.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+      "path": "humanizer.core/2.14.1",
+      "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2022.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "path": "jetbrains.annotations/2022.1.0",
+      "hashPath": "jetbrains.annotations.2022.1.0.nupkg.sha512"
+    },
+    "JsonDocumentPath/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4mgdlioVvfq6ZjftvsoKANWgpr/AU+UySiW68EjcbPbTfvcrZOlgS+6JkouRAN4TwI8dN2DUAVME7bklThk3KQ==",
+      "path": "jsondocumentpath/1.0.3",
+      "hashPath": "jsondocumentpath.1.0.3.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Analyzers/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j/rOZtLMVJjrfLRlAMckJLPW/1rze9MT1yfWqSIbUPGRu1m1P0fuo9PmqapwsmePfGB5PJrudQLvmUOAMF0DqQ==",
+      "path": "microsoft.codeanalysis.analyzers/3.3.3",
+      "hashPath": "microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Common/4.3.0-2.final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WJsLXD7oVT6ie8VZP+QLlsT+iVO6rFjxHABa8IPtwxN5sRZfyZ/NypLdCh+LPa8ydTlv5ouXJ5CdwZjmFWmh/A==",
+      "path": "microsoft.codeanalysis.common/4.3.0-2.final",
+      "hashPath": "microsoft.codeanalysis.common.4.3.0-2.final.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.CSharp/4.3.0-2.final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6uwDI0ItbOQbh1ZAOAIkmJ3vvXvBWOejCbAVCAVJBQvO/anVHii87y7gqoV+sCeWNEjYhxMzcv5sWx26OCXJPg==",
+      "path": "microsoft.codeanalysis.csharp/4.3.0-2.final",
+      "hashPath": "microsoft.codeanalysis.csharp.4.3.0-2.final.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.CSharp.Scripting/4.3.0-2.final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C3feuQ4judzYoWk8V5zxsA8QolZbJ1mT3c3qoNQGTiU7QlC/73u3a9XlVKCSjLVRVvDbiLHIDfACPd3Ljs/gcQ==",
+      "path": "microsoft.codeanalysis.csharp.scripting/4.3.0-2.final",
+      "hashPath": "microsoft.codeanalysis.csharp.scripting.4.3.0-2.final.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Scripting.Common/4.3.0-2.final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TQ8V/rpsOpHmiDhs/cdd9GjHio3gON0BhhIzV9QjVPACdcB8iqWck38Y/Vv0D2xGDy6OAlfdJF+BpMR6n+M8Eg==",
+      "path": "microsoft.codeanalysis.scripting.common/4.3.0-2.final",
+      "hashPath": "microsoft.codeanalysis.scripting.common.4.3.0-2.final.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/7.0.0-preview.5.22302.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uvNmZDMstcwBSr0UHbSnh2wWeeoLukL07d2dO4O11QdpXQZI51RPdqWsyaUbvQN2V1/9KE7EtNVNDpOMIwXRFA==",
+      "path": "microsoft.entityframeworkcore/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.7.0.0-preview.5.22302.2.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.0-preview.5.22302.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mm+2tUVz4vqAK/kyO5/FwBiI3sYwVpi46WZWajzJIC1KrZq0hMbiYjAR88Z5KyzwAQWecK3LDtWX0/d6NvrjeQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.7.0.0-preview.5.22302.2.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.0-preview.5.22302.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X39oFMtgMp7ANNChLmcoklOvW3ZBAT/ThwQ5ixHr0WRMbH/wJ5Puhf9uhgpoCcvsZXAYNurNiaD+u1r7r4Bt7A==",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.0-preview.5.22302.2",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.0-preview.5.22302.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nLofzSumX5zJndLJyGZyjQvLyLYNQFtHncKy0vccsT7lSMHyl0Y0Xk7S8CTSkZ8COQYzqyqESIw0WgJRs4d+MA==",
+      "path": "microsoft.extensions.caching.abstractions/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.caching.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IwCqiAZZWuTF7kX8Vfcy7AyiqqNEXbjJzhN90MFklLeKiSDXnmf2/ipRk7ZppoH6xwXuAP01a2U0jGOO2WzLtQ==",
+      "path": "microsoft.extensions.caching.memory/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.caching.memory.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.StackExchangeRedis/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bdVQpYm1hcHf0pyAypMjtDw3HjWQJ89UzloyyF1OBs56QlgA1naM498tP2Vjlho5vVRALMGPYzdRKCen8koubw==",
+      "path": "microsoft.extensions.caching.stackexchangeredis/6.0.6",
+      "hashPath": "microsoft.extensions.caching.stackexchangeredis.6.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cvCK9U33gD/iYBuSX/lPzIR7J0IfKxNrqt/vuQmzzasel5GmYR13dY8LjB8mcp4VjkZ3C5UPKwxOEKU50dH38A==",
+      "path": "microsoft.extensions.configuration/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.configuration.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cRuv8N5SsuojpspUpJiyRnRPwuJqg+UkoTzhIyhCgTbqBsZhiiNpTVUu48qAmjZ9rhyy7FpApJ8zRrXIck/t+g==",
+      "path": "microsoft.extensions.configuration.abstractions/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-flmXLNORIEe6L2vxBazOs7DVwQ98HjnYO6UPTTOQtpKtpjaqYn40hnSpv0NnKnUZL2bYcNH3kqzJBKTLt8Ykyw==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X2nIrjzKEBMOv/o6EmXk9Cqvg26JHq8N/9ElQkMJE0COIoE+0u5384mUnauBL/aDhrXm5fjojjtR6951Q2UTkg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0pd4/fho0gC12rQswaGQxbU34jOS1TPS8lZPpkFCH68ppQjHNHYle9iRuHeev1LhrJ94YPvzcRd8UmIuFk23Qw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GcT5l2CYXL6Sa27KCSh0TixsRfADUgth+ojQSD5EkzisZxmGFh7CwzkcYuGwvmXLjr27uWRNrJ2vuuEjMhU05Q==",
+      "path": "microsoft.extensions.hosting.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-15+pa2G0bAMHbHewaQIdr/y6ag2H3yh4rd9hTXavtWDzQBkvpe2RMqFg8BxDpcQWssmjmBApGPcw93QRz6YcMg==",
+      "path": "microsoft.extensions.http/6.0.0",
+      "hashPath": "microsoft.extensions.http.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http.Polly/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IRnV13JgkBFT2LZ8FHSXDxWgSV/u/c254giaLEAdZh5dsHD4dmTkx/ABWoKMjlqSRgNWL+yv6CIQAgtmP3MjNg==",
+      "path": "microsoft.extensions.http.polly/6.0.6",
+      "hashPath": "microsoft.extensions.http.polly.6.0.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vMTYF9137QN0jqioLsn9Qb+tF3LTylIUt6LRQzt8lMTK4X1L1offGsb/cpxR6cFGK16MdaQeKAI+nHFI1AHNbg==",
+      "path": "microsoft.extensions.logging/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.logging.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rjdq1q+UmLehZnuusvVjsYOWBNS/B9mGUE+oYs5aK/OjDhRTv/0LXZK6Y7J0t1zraikmZwalpxDn86XdNJb2Nw==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-edAIsknNBWKED6BisCKw0i77VlatI1VAbZsemSoPwWYDFbzfxNLiJ0Qw60vySTaPeUQ/wfGDKPSI01UXGF4FaA==",
+      "path": "microsoft.extensions.options/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.options.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0-preview.5.22301.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AHg0uD5Iz3wcJkbNmKNXIGdG8GT4KjYMuLfhx8StRAL3iq869ZKyN9F16S+qm9RkhwVO2IdWfYUg02npJYALOQ==",
+      "path": "microsoft.extensions.primitives/7.0.0-preview.5.22301.12",
+      "hashPath": "microsoft.extensions.primitives.7.0.0-preview.5.22301.12.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lrHT3bmqM13QHvgtj2Y30BCRsq6lX07klW5tScx2B7ihqWeG6aVXrHxVALN34+boed9ybVtlRFLOuKD44Xuttg==",
+      "path": "newtonsoft.json/13.0.2-beta1",
+      "hashPath": "newtonsoft.json.13.0.2-beta1.nupkg.sha512"
+    },
+    "NGettext/0.6.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gT6bf5PVayvTuEIuM2XSNqthrtn9W+LlCX4RD//Nb4hrT3agohHvPdjpROgNGgyXDkjwE74F+EwDwqUgJCJG8A==",
+      "path": "ngettext/0.6.7",
+      "hashPath": "ngettext.0.6.7.nupkg.sha512"
+    },
+    "OneOf/3.0.223": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YWabiHBFfDdKIO7/TEa72mARVVo5u5FqFnfXuTqjIupMvJlhoH8d0m4uKtczaINuT0vGR1qlXJayeU6bTw5myg==",
+      "path": "oneof/3.0.223",
+      "hashPath": "oneof.3.0.223.nupkg.sha512"
+    },
+    "Pipelines.Sockets.Unofficial/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7hzHplEIVOGBl5zOQZGX/DiJDHjq+RVRVrYgDiqXb6RriqWAdacXxp+XO9WSrATCEXyNOUOQg9aqQArsjase/A==",
+      "path": "pipelines.sockets.unofficial/2.2.0",
+      "hashPath": "pipelines.sockets.unofficial.2.2.0.nupkg.sha512"
+    },
+    "Polly/7.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DeCY0OFbNdNxsjntr1gTXHJ5pKUwYzp04Er2LLeN3g6pWhffsGuKVfMBLe1lw7x76HrPkLxKEFxBlpRxS2nDEQ==",
+      "path": "polly/7.2.3",
+      "hashPath": "polly.7.2.3.nupkg.sha512"
+    },
+    "Polly.Contrib.WaitAndRetry/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MUQLiSo4KDkQe6nzQRhIU05lm9jlexX5BVsbuw0SL82ynZ+GzAHQxJVDPVBboxV37Po3SG077aX8DuSy8TkaA==",
+      "path": "polly.contrib.waitandretry/1.1.1",
+      "hashPath": "polly.contrib.waitandretry.1.1.1.nupkg.sha512"
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "path": "polly.extensions.http/3.0.0",
+      "hashPath": "polly.extensions.http.3.0.0.nupkg.sha512"
+    },
+    "prometheus-net/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rD6iXx1mKx6uy5E7YkktLxvBQKFTbNfe3qc43s+9ZuYWgEm41QMTlw/a+R+Hs86NkfHG3oHYAJuP7c7HQ+oj9Q==",
+      "path": "prometheus-net/6.0.0",
+      "hashPath": "prometheus-net.6.0.0.nupkg.sha512"
+    },
+    "prometheus-net.AspNetCore/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NCSrvXuR2oYH2SRjC+Ia6ikepD3m8pbRMZjSU639MKwE+W0pLWFvb5ZBXRGuSj7BW8JbFvgBsxL61E1L5OAY9A==",
+      "path": "prometheus-net.aspnetcore/6.0.0",
+      "hashPath": "prometheus-net.aspnetcore.6.0.0.nupkg.sha512"
+    },
+    "Remora.Commands/10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rwrwcpALL2qcFtyqj2fAAbT1d22UHLHLlN5rpILoOzcVhEX9F/RzuyAlJCWh1h6Vu4eKwEpVR+ORD4vQIJdXOg==",
+      "path": "remora.commands/10.0.1",
+      "hashPath": "remora.commands.10.0.1.nupkg.sha512"
+    },
+    "Remora.Discord/2022.43.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b+CFAzUnGFbzPk7DtytLJYwTfoPsY56zn/ZTWsUNoINwutnUTX3moVwGmcLhQ1s8Rx89gzahhljVskllhNh3FQ==",
+      "path": "remora.discord/2022.43.0",
+      "hashPath": "remora.discord.2022.43.0.nupkg.sha512"
+    },
+    "Remora.Discord.API/64.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K8kw5g7usS+AgmM+/xByX8DCuxv1QTiDy+CPsek8jWdedt3QcMH1PffMLR9TN/1h48hAAvscci05y6O6l/IjDQ==",
+      "path": "remora.discord.api/64.0.0",
+      "hashPath": "remora.discord.api.64.0.0.nupkg.sha512"
+    },
+    "Remora.Discord.API.Abstractions/68.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x1iVE8U4HSt+pOMZ+RriGO9dp8QJ0lG29PKPFKB2n6Lpsu4yUXCISXxUc7VYNyYJrn+203j8w6wNA2xMUV62FQ==",
+      "path": "remora.discord.api.abstractions/68.0.0",
+      "hashPath": "remora.discord.api.abstractions.68.0.0.nupkg.sha512"
+    },
+    "Remora.Discord.Caching/30.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mqUrltBZ37miwKZN6H3QV1M8iazjDkFXk033TLOmq3ILEt56LhY820D8JhF3EAqEbLVhRrfwyCQl19o0QFCpzg==",
+      "path": "remora.discord.caching/30.0.4",
+      "hashPath": "remora.discord.caching.30.0.4.nupkg.sha512"
+    },
+    "Remora.Discord.Caching.Abstractions/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3AH1kPW71B6nBEfxCJyUh+PkGd3VjohyJQTyRru2rqW9UTcp1CCirysTfFBfip54aeC4nBnUL6xn+SXEk4TI9w==",
+      "path": "remora.discord.caching.abstractions/1.0.1",
+      "hashPath": "remora.discord.caching.abstractions.1.0.1.nupkg.sha512"
+    },
+    "Remora.Discord.Caching.Redis/1.0.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fPsXVtgnGhxX3Be/CZTO9anHfv09lvnieY97mPyaUbYrHrKGaCp+Gmxe+yEn9ZmEJWqjGPA6n3NkkyAvwyPOGw==",
+      "path": "remora.discord.caching.redis/1.0.18",
+      "hashPath": "remora.discord.caching.redis.1.0.18.nupkg.sha512"
+    },
+    "Remora.Discord.Commands/25.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zHFdbCCCfh6IFf5aZQqbwxv5hACvWuHy3tygmNiVVzv5uzAhXLooSo5oZSMLTjxgq6FxV9ISpRtkpc+fcVyhRA==",
+      "path": "remora.discord.commands/25.1.1",
+      "hashPath": "remora.discord.commands.25.1.1.nupkg.sha512"
+    },
+    "Remora.Discord.Extensions/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CAd/k49Chi+ylIj/SyhvcqG6jR6fIQ9Q24iXJ3Oj/uXKO5Jb7mYGhAUajvW9CKJuiEVLUSaji1TJWIUfum8aCg==",
+      "path": "remora.discord.extensions/5.0.1",
+      "hashPath": "remora.discord.extensions.5.0.1.nupkg.sha512"
+    },
+    "Remora.Discord.Gateway/10.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQ7g8CMS01IRbaxATnm3nR2OgApQdPJrvSWpE+3a5GURrqjgfZBVvjvK1lFc33YgFxTpghk4iAlx0Np7hk3eQQ==",
+      "path": "remora.discord.gateway/10.1.3",
+      "hashPath": "remora.discord.gateway.10.1.3.nupkg.sha512"
+    },
+    "Remora.Discord.Hosting/5.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prHWbLq8+zXyCtm1HKJggT7yACy6bR5FTBluTs94eGsnJFJvbwsOEUEzHrZLx17HKn3KBzHsPRgauqBJbEEXvA==",
+      "path": "remora.discord.hosting/5.0.23",
+      "hashPath": "remora.discord.hosting.5.0.23.nupkg.sha512"
+    },
+    "Remora.Discord.Interactivity/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5QGtwkM00sdty6kWV/mYkiRNsXkEbo7KVxA6bvt8Ud9vwzs5JfLXAtEHwVknsus8HG+CHIfb+SYKJarc8COWPQ==",
+      "path": "remora.discord.interactivity/4.2.1",
+      "hashPath": "remora.discord.interactivity.4.2.1.nupkg.sha512"
+    },
+    "Remora.Discord.Pagination/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w8MU3q1sPDFiket1OmXxCSiEPKDjlAyNQVmRweazOZm3JAFCuryKhNfltHdKBLo9PJCtJ5rO4QOcrsCZS+/9bA==",
+      "path": "remora.discord.pagination/3.0.3",
+      "hashPath": "remora.discord.pagination.3.0.3.nupkg.sha512"
+    },
+    "Remora.Discord.Rest/40.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PQgXpZ4DJUFfKsE9V+OYIusjLuPWAQXerSumDOvEVFiXfHrjt8FNzhxpXfXRfWJLwQO3XWgFiCQRGACcW4mIlg==",
+      "path": "remora.discord.rest/40.0.4",
+      "hashPath": "remora.discord.rest.40.0.4.nupkg.sha512"
+    },
+    "Remora.Extensions.Options.Immutable/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TRDo4VeoUpNUNbopibYosNVqvEc7/eO5hzSXrg0A46IIgSt75HaTiaEIDY029dpzNLdxuF2Q4yfbTHtwr3QDeQ==",
+      "path": "remora.extensions.options.immutable/1.0.3",
+      "hashPath": "remora.extensions.options.immutable.1.0.3.nupkg.sha512"
+    },
+    "Remora.Plugins/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kSXiIK7u+T7dVfYQKbAKuEa+7FA3jW4qeD0TE9sS7NJ9RfEEjidLlWfY8iP3Xzvf84Xn6zhN5TGR370syx4eMg==",
+      "path": "remora.plugins/3.0.4",
+      "hashPath": "remora.plugins.3.0.4.nupkg.sha512"
+    },
+    "Remora.Plugins.Abstractions/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h04QWZl1s9v6JPBTBYK071uoqRDqsli5s1LExWIhKVpfwudgwPIGBjssbLK3y5zH8SC9fBcMZ0CHthlEsToLJg==",
+      "path": "remora.plugins.abstractions/4.0.4",
+      "hashPath": "remora.plugins.abstractions.4.0.4.nupkg.sha512"
+    },
+    "Remora.Rest/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MeYHAfQ0jn/jApW8KAlNVu8OQUNRc9g9PAqTErywkKvMXcJEdrluYBcAUqKqWY0btyqtB0H88y6neEamYqUF4Q==",
+      "path": "remora.rest/2.0.4",
+      "hashPath": "remora.rest.2.0.4.nupkg.sha512"
+    },
+    "Remora.Rest.Core/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7MSeMl+mvjcTK2i5ftxJ5MFt4yDt5ymTKo9ftYnowBX/VNcek08WQBeDyRH4fdU+icAOy2cBDH+UZRLANIS6MQ==",
+      "path": "remora.rest.core/2.0.2",
+      "hashPath": "remora.rest.core.2.0.2.nupkg.sha512"
+    },
+    "Remora.Results/7.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W1CiO/Vg9oyBEEgqCi0lpGvBPaHUdQ2qLHlwFjj34EBwy1oPuRFuqjYa3XWIthES4CSot9gGW+OQ7ZKh0aHkFg==",
+      "path": "remora.results/7.2.1",
+      "hashPath": "remora.results.7.2.1.nupkg.sha512"
+    },
+    "Serilog/2.11.1-dev-01397": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ClClAbuYkzcyMXS9JIwFoLyCttwjlfDNLO5tBbv4ASwPnbBBxQ7NTjFVHPSluJ8hQJkB8PJuaItYy/wAFvBkwg==",
+      "path": "serilog/2.11.1-dev-01397",
+      "hashPath": "serilog.2.11.1-dev-01397.nupkg.sha512"
+    },
+    "StackExchange.Redis/2.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wM0OuRyRaZTFndFRjIOvas4jjkeclRJsmNm0eAx5tOju3SQisrLubNaSFT/dBypi4Vh1n7nYc1gWpw9L7ernOg==",
+      "path": "stackexchange.redis/2.2.4",
+      "hashPath": "stackexchange.redis.2.2.4.nupkg.sha512"
+    },
+    "System.Collections.Immutable/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
+      "path": "system.collections.immutable/5.0.0",
+      "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aM7cbfEfVNlEEOj3DsZP+2g9NRwbkyiAv2isQEzw7pnkDg9ekCU2m1cdJLM02Uq691OaCS91tooaxcEn8d0q5w==",
+      "path": "system.configuration.configurationmanager/5.0.0",
+      "hashPath": "system.configuration.configurationmanager.5.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kcQWWtGVC3MWMNXdMDWfrmIlFZZ2OdoeT6pSNVRtk9+Sa7jwdPiMlNwb0ZQcS7NRlT92pCfmjRtkSWUW3RAKwg==",
+      "path": "system.diagnostics.performancecounter/5.0.0",
+      "hashPath": "system.diagnostics.performancecounter.5.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
+      "path": "system.drawing.common/5.0.0",
+      "hashPath": "system.drawing.common.5.0.0.nupkg.sha512"
+    },
+    "System.IO.Pipelines/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irMYm3vhVgRsYvHTU5b2gsT2CwT/SMM6LZFzuJjpIvT5Z4CshxNsaoBC1X/LltwuR3Opp8d6jOS/60WwOb7Q2Q==",
+      "path": "system.io.pipelines/5.0.0",
+      "hashPath": "system.io.pipelines.5.0.0.nupkg.sha512"
+    },
+    "System.Linq.Async/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
+      "path": "system.linq.async/6.0.1",
+      "hashPath": "system.linq.async.6.0.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5NecZgXktdGg34rh1OenY1rFNDCI8xSjFr+Z4OU4cU06AQHUdRnIIEeWENu3Wl4YowbzkymAIMvi3WyK9U53pQ==",
+      "path": "system.reflection.metadata/5.0.0",
+      "hashPath": "system.reflection.metadata.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HGxMSAFAPLNoxBvSfW08vHde0F9uh7BjASwu6JF9JnXuEPhCY3YUqURn0+bQV/4UWeaqymmrHWV+Aw9riQCtCA==",
+      "path": "system.security.cryptography.protecteddata/5.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uE8juAhEkp7KDBCdjDIE3H9R1HJuEHqeqX8nLX9gmYKWwsqk3T5qZlPx8qle5DPKimC/Fy3AFTdV7HamgCh9qQ==",
+      "path": "system.security.permissions/5.0.0",
+      "hashPath": "system.security.permissions.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
+      "path": "system.text.encoding.codepages/6.0.0",
+      "hashPath": "system.text.encoding.codepages.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SSH+YYrMpvLcy7Orzb5K1tSyffnFacWahyxCCjYH1PbSHdAF4dekmIetBurFKgtTHDmwEe/J2Csi/7niRH6d/g==",
+      "path": "system.text.json/6.0.5",
+      "hashPath": "system.text.json.6.0.5.nupkg.sha512"
+    },
+    "System.Threading.Channels/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "path": "system.threading.channels/6.0.0",
+      "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "System.Windows.Extensions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
+      "path": "system.windows.extensions/5.0.0",
+      "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "Ayano.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ayano.Plugins.Dev/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
