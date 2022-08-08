@@ -1,5 +1,5 @@
 # Ayano
-A multipurpose discord bot that is being written in rust (for now).
+A multipurpose discord bot that is being written in C# (for now).
 
 ## Important!
 This bot is still being rewritten, and could be cancelled at any moment. There are 2 version for this bot currently, the C# rewrite and the Rust rewrite, both are available on their respective branches, V1/CSharp and V1/Rust (Discontinued).
