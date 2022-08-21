@@ -1,6 +1,4 @@
-./appSettings.json
-./*/bin
-./*/obj
-./*/*/obj
-./*/*/bin
-./idea
+appSettings.json
+bin/
+obj/
+.vscode/
