@@ -1,6 +1,4 @@
 ﻿using Ayano.Core.Services.Cache;
-using Ayano.Services.HelpCommand;
-using Ayano.Services.HelpCommand.Extensions;
 using Ayano.Core.Responders;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,6 +15,9 @@ using Remora.Discord.Gateway.Extensions;
 using Remora.Discord.Hosting.Extensions;
 using Remora.Plugins.Services;
 using Sentry;
+using StackExchange.Redis;
+using VTP.Remora.Commands.HelpSystem;
+using Npgsql;
 
 namespace Ayano;
 
@@ -65,9 +66,17 @@ public class Program
 
             try { metrics.Start(); } catch { /* ignored */ }
 
+            var gatewayApi = Services.GetRequiredService<Remora.Discord.API.Abstractions.Rest.IDiscordRestGatewayAPI>();
+            var getGatewayEndpoint = await gatewayApi.GetGatewayBotAsync();
+            if (!getGatewayEndpoint.IsSuccess)
+            {
+                Console.WriteLine(getGatewayEndpoint.Error);
+            }
+
             await gatewayClient.RunAsync(new CancellationToken());
             
             await metrics.StopAsync();
+
         }
     }
 
@@ -79,6 +88,10 @@ public class Program
 
         var plugins = pluginService.LoadPluginTree();
 
+        var connString = "Host=localhost;Username=postgres;Password=postgres;Database=ayano";
+
+        var conn = new NpgsqlConnection(connString);
+
         var host = Host.CreateDefaultBuilder()
             .ConfigureAppConfiguration(configuration =>
             { 
@@ -88,7 +101,7 @@ public class Program
             })
             .AddDiscordService
             (
-                _ => ""// s.GetService<IOptions<AyanoConfigurationOptions>>()!.Value.Discord.BotToken
+                _ => "NzYzNjMzNTg0Njc3OTc4MTEy.GbMh_Z.DquT0CdEPlUJphmUlPo8p2ft726xJmHgX6I4zk"// s.GetService<IOptions<AyanoConfigurationOptions>>()!.Value.Discord.BotToken
             )
             .ConfigureServices
             (
@@ -108,15 +121,22 @@ public class Program
                         options.CommandCategories.Add("Info");
                         options.CommandCategories.Add("Leveling");
                         options.CommandCategories.Add("Fun");
+                        options.CommandCategories.Add("Economy");
                     });
 
+                    // services.Configure<CommandResponderOptions>(options => {
+                    //     options
+                    // })
+
                     services.AddSingleton(pluginService);
+                    services.AddSingleton(conn);
                     services.AddHelpSystem();
                     services.AddHttpClient();
                     services.AddSingleton<ICacheService, CacheService>();
                     services.AddSingleton<IShardIdentification>(s => s.GetRequiredService<IOptions<DiscordGatewayClientOptions>>().Value.ShardIdentification!);
                     services.AddResponder<MentionSelfResponder>();
                     services.AddResponder<GuildCreateResponder>();
+                    // services.AddResponder<LevelingResponder>();
                     plugins.ConfigureServices(services);
                 }
             )
