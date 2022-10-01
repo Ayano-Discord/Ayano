@@ -101,7 +101,7 @@ public class Program
             })
             .AddDiscordService
             (
-                _ => "NzYzNjMzNTg0Njc3OTc4MTEy.GbMh_Z.DquT0CdEPlUJphmUlPo8p2ft726xJmHgX6I4zk"// s.GetService<IOptions<AyanoConfigurationOptions>>()!.Value.Discord.BotToken
+                _ => ""// s.GetService<IOptions<AyanoConfigurationOptions>>()!.Value.Discord.BotToken
             )
             .ConfigureServices
             (
