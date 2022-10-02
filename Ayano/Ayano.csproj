@@ -9,7 +9,7 @@
 
     <ItemGroup>
         <PackageReference Include="ArgonautCore" Version="1.5.3" />
-        <PackageReference Include="GTranslate" Version="2.1.0" />
+        <PackageReference Include="GTranslate" Version="2.1.1" />
         <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
         <PackageReference Include="MediatR" Version="11.0.0" />
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.1" />
