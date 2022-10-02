@@ -69,9 +69,9 @@ public class ReplModule : CommandGroup
             string code)
     {
         var messageLink = "https://canary.discord.com/channels/" + Context.GuildID + "/" + Context.ChannelID + "/" + Context.MessageID;
-        
+
         var channel = ChannelApi.GetChannelAsync(Context.ChannelID).Result.Entity;
-        
+
         if (!(channel.Type is ChannelType.GuildText))
         {
             var errorEmbed = new Embed
@@ -142,14 +142,14 @@ public class ReplModule : CommandGroup
         var embed = await BuildEmbedAsync(parsedResult);
 
         await ChannelApi.DeleteMessageAsync(Context.ChannelID, Context.MessageID);
-        
+
         return (RemoraResult)await ChannelApi.CreateMessageAsync(Context.ChannelID, embeds: new[] { embed });
     }
 
     private async Task ModifyOrSendErrorEmbed(string error, IMessage message)
     {
         var messageLink = "https://canary.discord.com/channels/" + Context.GuildID + "/" + Context.ChannelID + "/" + Context.MessageID;
-        
+
         var embed = new Embed
         {
             Title = "Repl Error",
@@ -171,11 +171,11 @@ public class ReplModule : CommandGroup
         var returnValue = parsedResult.ReturnValue?.ToString() ?? " ";
         var consoleOut = parsedResult.ConsoleOut;
         var status = string.IsNullOrEmpty(parsedResult.Exception) ? "Success" : "Failure";
-        
+
         var input = Regex.Replace(
-            parsedResult.Exception, 
-            "^", 
-            "- ", 
+            parsedResult.Exception,
+            "^",
+            "- ",
             RegexOptions.Multiline
         ).TruncateTo(MaxFormattedFieldSize);
 
@@ -192,7 +192,7 @@ public class ReplModule : CommandGroup
             {
                 string.IsNullOrWhiteSpace(consoleOut) ? null : new ("Console Output", consoleOut),
                 string.IsNullOrWhiteSpace(parsedResult.Exception) ? null : new (
-                    "Exception", 
+                    "Exception",
                     $"```{input}\n```"
                     ),
                 new ($"Result: {parsedResult.ReturnTypeName}", FormatOrEmptyCodeblock(returnValue.TruncateTo(MaxFormattedFieldSize), "json"))

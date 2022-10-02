@@ -14,7 +14,7 @@ public class MathsCommands : CommandGroup
     private IDiscordRestChannelAPI ChannelApi { get; init; }
     private Processor _processor { get; init; }
 
-    public MathsCommands (
+    public MathsCommands(
         MessageContext context,
         IDiscordRestChannelAPI channelApi,
         Processor processor)
@@ -26,12 +26,13 @@ public class MathsCommands : CommandGroup
 
     [Command("maths")]
     [Description("Evaluate a maths expression.")]
-    public async Task<IResult> Maths([Description("Expression")]string expression)
+    public async Task<IResult> Maths([Description("Expression")] string expression)
     {
 
         var exp = _processor.Parse(expression);
 
-        var embed = new Embed() {
+        var embed = new Embed()
+        {
             Title = "Maths",
             Fields = new[] {
                 new EmbedField("Expression", expression),
@@ -41,6 +42,6 @@ public class MathsCommands : CommandGroup
 
         var answer = exp.Execute();
 
-        return await ChannelApi.CreateMessageAsync(Context.ChannelID, embeds: new[] {embed});
+        return await ChannelApi.CreateMessageAsync(Context.ChannelID, embeds: new[] { embed });
     }
 }

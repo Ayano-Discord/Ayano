@@ -8,13 +8,13 @@ using Ayano.Core.Services;
 using Humanizer;
 
 namespace Ayano.Plugins.Economy.Commands;
-public class WorkCommand: CommandGroup
+public class WorkCommand : CommandGroup
 {
     private MessageContext Context { get; init; }
     private IDiscordRestChannelAPI ChannelApi { get; init; }
     private Database _db { get; init; }
 
-    public WorkCommand (
+    public WorkCommand(
         MessageContext context,
         IDiscordRestChannelAPI channelAPI,
         Database db
@@ -39,19 +39,19 @@ public class WorkCommand: CommandGroup
         "StickAnimator",
         "Strict Math Teacher",
         "Tik Toker",
-        "Miner", 
-        "Bartender", 
-        "Cashier", 
-        "Cleaner", 
+        "Miner",
+        "Bartender",
+        "Cashier",
+        "Cleaner",
         "Drugdealer",
-        "Assistant", 
+        "Assistant",
         "Nurse",
-        "Accountants", 
-        "Security Guard", 
-        "Sheriff", 
+        "Accountants",
+        "Security Guard",
+        "Sheriff",
         "Lawyer",
-        "Electrician", 
-        "Singer", 
+        "Electrician",
+        "Singer",
         "Dancer"
     };
 
@@ -77,6 +77,6 @@ public class WorkCommand: CommandGroup
 
         var msg = await ChannelApi.CreateMessageAsync(Context.ChannelID, $"You worked as **{job}** and earned **{amount}** 💸. Now you have **${bal + amount}** 💸.");
 
-        return msg.IsSuccess ? Result.FromSuccess() : Result.FromError(msg.Error);; 
+        return msg.IsSuccess ? Result.FromSuccess() : Result.FromError(msg.Error); ;
     }
 }

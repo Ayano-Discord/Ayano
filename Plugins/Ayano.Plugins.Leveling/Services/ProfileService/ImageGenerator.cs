@@ -233,7 +233,7 @@ public class ImageGenerator : IDisposable
             c.GlobalRank.ToString(),
             // _statsLightFont,
             blueHighlight
-            // new Vector2(235 + (textSize.Width / 2), 221)));
+        // new Vector2(235 + (textSize.Width / 2), 221)));
         ));
 
         // Draw global level
@@ -243,7 +243,7 @@ public class ImageGenerator : IDisposable
                 $"LEVEL: {c.GlobalLevel.ToString()}",
                 // _statsLightFont
                 Color.White
-                // new Vector2(235, 236)));
+            // new Vector2(235, 236)));
             ));
         // Draw global EXP
         image.Mutate(x =>
@@ -252,7 +252,7 @@ public class ImageGenerator : IDisposable
                 $"{c.GlobalExp.ToString()} / {c.GlobalNextLevelExp.ToString()}",
                 // _statsTinyFont,
                 Color.White
-                // new Vector2(235, 250)));
+            // new Vector2(235, 250)));
             ));
 
         // Draw local STats
@@ -266,7 +266,7 @@ public class ImageGenerator : IDisposable
                 "LOCAL RANK: ",
                 // _statsLightFont,
                 Color.White
-                // new Vector2(386 - (localTextSize.Width / 2), 221)));
+            // new Vector2(386 - (localTextSize.Width / 2), 221)));
             ));
         image.Mutate(x =>
             x.DrawText(
@@ -275,7 +275,7 @@ public class ImageGenerator : IDisposable
                 c.LocalRank.ToString(),
                 // _statsLightFont,
                 blueHighlight
-                // new Vector2(386 + (localTextSize.Width / 2), 221)));
+            // new Vector2(386 + (localTextSize.Width / 2), 221)));
             ));
         image.Mutate(x =>
             x.DrawText(
@@ -283,7 +283,7 @@ public class ImageGenerator : IDisposable
                 $"LEVEL: {c.LocalLevel.ToString()}",
                 // _statsLightFont,
                 Color.White
-                // new Vector2(386, 236)));
+            // new Vector2(386, 236)));
             ));
         image.Mutate(x =>
             x.DrawText(
@@ -291,7 +291,7 @@ public class ImageGenerator : IDisposable
                 $"{c.LocalExp.ToString()} / {c.LocalNextLevelExp.ToString()}",
                 // _statsTinyFont,
                 Color.White
-                // new Vector2(386, 250)));
+            // new Vector2(386, 250)));
             ));
     }
 

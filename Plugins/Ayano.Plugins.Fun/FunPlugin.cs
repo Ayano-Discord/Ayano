@@ -15,7 +15,7 @@ namespace Ayano.Plugins.Fun;
 public sealed class FunPlugin : PluginDescriptor
 {
     public override string Name => "Fun";
-    
+
     public override string Description => "Contains fun commands for Ayano.";
 
     public override RemoraResult ConfigureServices(IServiceCollection serviceCollection)

@@ -11,13 +11,13 @@ using Ayano.Core.Services;
 using Humanizer;
 
 namespace Ayano.Plugins.Economy.Commands;
-public class BalanceCommand: CommandGroup
+public class BalanceCommand : CommandGroup
 {
     private MessageContext Context { get; init; }
     private IDiscordRestChannelAPI ChannelApi { get; init; }
     private Database _db { get; init; }
 
-    public BalanceCommand (
+    public BalanceCommand(
         MessageContext context,
         IDiscordRestChannelAPI channelAPI,
         Database db
@@ -41,6 +41,6 @@ public class BalanceCommand: CommandGroup
         };
 
         var msg = await ChannelApi.CreateMessageAsync(Context.ChannelID, embeds: new[] { embed });
-        return msg.IsSuccess ? Result.FromSuccess() : Result.FromError(msg.Error);; 
+        return msg.IsSuccess ? Result.FromSuccess() : Result.FromError(msg.Error); ;
     }
 }
