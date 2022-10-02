@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Description>Fun commands for ayano</Description>
+        <RootNamespace>Ayano.Plugins.Leveling</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Remora.Discord" Version="2022.48.0" />
+        <PackageReference Include="Remora.Plugins" Version="3.0.5" />
+        <PackageReference Include="Remora.Results" Version="7.2.2" />
+        <PackageReference Include="SixLabors.Fonts" Version="1.0.0-beta18" />
+        <PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
+        <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta15" />
+    </ItemGroup>
+
+    <ItemGroup>
+
+        <ProjectReference Include="..\..\Ayano.Core\Ayano.Core.csproj">
+            <!--
+            <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+            <OutputItemType>Content</OutputItemType>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Targets>Build;DebugSymbolsProjectOutputGroup</Targets>
+            <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+            -->
+        </ProjectReference>
+    </ItemGroup>
+
+</Project>

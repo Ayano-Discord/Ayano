@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Description>Contains commands which provide information about Ayano.</Description>
+        <RootNamespace>Ayano.Plugins.Info</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Octokit" Version="0.52.0" />
+      <PackageReference Include="Remora.Discord" Version="2022.48.0" />
+      <PackageReference Include="Remora.Plugins" Version="3.0.5" />
+      <PackageReference Include="Remora.Results" Version="7.2.2" />
+      <PackageReference Include="VTP.RemoraHelpSystem" Version="1.1.2" />
+    </ItemGroup>
+    
+    
+    <ItemGroup>
+        <ProjectReference Include="..\..\Ayano.Core\Ayano.Core.csproj">
+            <!--
+            <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+            <OutputItemType>Content</OutputItemType>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Targets>Build;DebugSymbolsProjectOutputGroup</Targets>
+            <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+            -->
+        </ProjectReference>
+    </ItemGroup>
+</Project>

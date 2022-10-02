@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayano", "Ayano\Ayano.csproj", "{8905CAAF-2A68-4112-B989-91847B5CDBDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayano.Plugins.Info", "Plugins\Ayano.Plugins.Info\Ayano.Plugins.Info.csproj", "{815C0F26-2DB3-4A23-88EF-51CF721F55BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayano.Core", "Ayano.Core\Ayano.Core.csproj", "{6FC6BD13-9437-4D09-8E0F-F4C30365179A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayano.Plugins.Fun", "Plugins\Ayano.Plugins.Fun\Ayano.Plugins.Fun.csproj", "{A07E247F-483B-438E-B023-4F2224F0B60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayano.Plugins.Dev", "Plugins\Ayano.Plugins.Dev\Ayano.Plugins.Dev.csproj", "{ACA6F409-F14B-4D3A-BD3A-218F0C697367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayano.Plugins.Leveling", "Plugins\Ayano.Plugins.Leveling\Ayano.Plugins.Leveling.csproj", "{8BEF91B4-A9BA-4795-AD3C-4A2B4376E2A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8905CAAF-2A68-4112-B989-91847B5CDBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8905CAAF-2A68-4112-B989-91847B5CDBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8905CAAF-2A68-4112-B989-91847B5CDBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8905CAAF-2A68-4112-B989-91847B5CDBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815C0F26-2DB3-4A23-88EF-51CF721F55BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815C0F26-2DB3-4A23-88EF-51CF721F55BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815C0F26-2DB3-4A23-88EF-51CF721F55BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815C0F26-2DB3-4A23-88EF-51CF721F55BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC6BD13-9437-4D09-8E0F-F4C30365179A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC6BD13-9437-4D09-8E0F-F4C30365179A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC6BD13-9437-4D09-8E0F-F4C30365179A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC6BD13-9437-4D09-8E0F-F4C30365179A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07E247F-483B-438E-B023-4F2224F0B60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07E247F-483B-438E-B023-4F2224F0B60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07E247F-483B-438E-B023-4F2224F0B60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07E247F-483B-438E-B023-4F2224F0B60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA6F409-F14B-4D3A-BD3A-218F0C697367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA6F409-F14B-4D3A-BD3A-218F0C697367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA6F409-F14B-4D3A-BD3A-218F0C697367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA6F409-F14B-4D3A-BD3A-218F0C697367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEF91B4-A9BA-4795-AD3C-4A2B4376E2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEF91B4-A9BA-4795-AD3C-4A2B4376E2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEF91B4-A9BA-4795-AD3C-4A2B4376E2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEF91B4-A9BA-4795-AD3C-4A2B4376E2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
