@@ -13,16 +13,16 @@ using Remora.Results;
 
 namespace Ayano.Plugins.Info.Commands;
 
-public class AboutCommand: CommandGroup
+public class AboutCommand : CommandGroup
 {
     private GitHubClient GithubClient { get; init; }
     private IDiscordRestChannelAPI ChannelApi { get; init; }
     private IDiscordRestGuildAPI GuildApi { get; init; }
-    
+
     private ICacheService CacheService { get; init; }
-    
+
     private MessageContext Context { get; init; }
-    
+
     public AboutCommand(GitHubClient client, IDiscordRestChannelAPI channelApi, MessageContext context, IDiscordRestGuildAPI guildApi, ICacheService cacheService)
     {
         GithubClient = client;
@@ -35,14 +35,14 @@ public class AboutCommand: CommandGroup
     public string GetLatestCommits(int count = 3)
     {
         var commits = GithubClient.Repository.Commit.GetAll(443498716).Result!;
-        
+
         var commitString = "";
 
-        for (var i = 0;  i < count; i++)
+        for (var i = 0; i < count; i++)
         {
             var timestamp = commits[i].Commit.Author.Date.ToUnixTimeSeconds();
             var commitUrl = "https://github.com/Ayano-Discord/Ayano/commit/" + commits[i].Sha;
-            
+
             commitString += $"[`{commits[i].Sha.Substring(0, 6)}`]({commitUrl}) - {commits[i].Commit.Message} (<t:{timestamp}:R>)\n";
         }
 
@@ -59,7 +59,7 @@ public class AboutCommand: CommandGroup
             Serving `{CacheService.Get<int>("global:guildCount").Some()}` servers (`{CacheService.Get<int>("global:channel:totalChannelCount").Some()}` Channels).
             For a total of `{CacheService.Get<int>("global:userCount").Some()}` users.
             ";
-        
+
         var embed = new Embed
         {
             Author = new EmbedAuthor("Ayano"),
@@ -73,7 +73,7 @@ public class AboutCommand: CommandGroup
             Colour = Color.Crimson,
             Footer = new EmbedFooter($"Shard ID 1 • {DateTimeOffset.UtcNow.Subtract(process.StartTime).Humanize(2, minUnit: TimeUnit.Second, maxUnit: TimeUnit.Day)}")
         };
-        var result  = await ChannelApi.CreateMessageAsync(Context.ChannelID, embeds: new[] {embed});
+        var result = await ChannelApi.CreateMessageAsync(Context.ChannelID, embeds: new[] { embed });
         return result.IsSuccess ? Result.FromSuccess() : Result.FromError(result.Error);
     }
 }

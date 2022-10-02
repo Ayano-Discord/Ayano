@@ -50,7 +50,7 @@ public static class FormatUtilities
     {
         var lines = code.Split('\n');
         var indentLine = lines.SkipWhile(d => d.FirstOrDefault() != ' ').FirstOrDefault();
-        
+
         if (indentLine != null)
         {
             var indent = indentLine.LastIndexOf(' ') + 1;

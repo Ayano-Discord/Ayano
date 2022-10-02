@@ -13,7 +13,7 @@ namespace Ayano.Plugins.Dev;
 public sealed class DevPlugin : PluginDescriptor
 {
     public override string Name => "Dev";
-    
+
     public override string Description => "Contains dev commands for Ayano.";
 
     public override Result ConfigureServices(IServiceCollection serviceCollection)

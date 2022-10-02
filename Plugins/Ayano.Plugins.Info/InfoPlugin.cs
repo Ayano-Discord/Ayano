@@ -14,12 +14,12 @@ namespace Ayano.Plugins.Info;
 public sealed class InfoPlugin : PluginDescriptor
 {
     public override string Name => "Info";
-    
+
     public override string Description => "Contains commands which provide information about Ayano.";
-    
+
     public override Result ConfigureServices(IServiceCollection serviceCollection)
     {
-        
+
         var client = new GitHubClient(new ProductHeaderValue("Ayano-Discord-Bot"));
 
         serviceCollection.AddSingleton(client);

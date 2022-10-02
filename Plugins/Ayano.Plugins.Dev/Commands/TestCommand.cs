@@ -58,9 +58,9 @@ public class TestCommand : CommandGroup
 
         await ws.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes(playString)), WebSocketMessageType.Text, true,
             CancellationToken.None);
-        
+
         var result = ws.ReceiveAsync(new ArraySegment<byte>(new byte[1024]), CancellationToken.None).Result;
-        
+
         if (result.MessageType == WebSocketMessageType.Text)
         {
             Console.WriteLine(Encoding.UTF8.GetString(new byte[1024], 0, result.Count));

@@ -1,6 +1,7 @@
 namespace Ayano.Core.Utilities;
 
-public static class MathHelpers {
+public static class MathHelpers
+{
 
     #region Trigonometry
     public static double findSine(double angle)
@@ -81,7 +82,7 @@ public static class MathHelpers {
     {
         decimal temp;
         decimal finalDiag;
-        temp = (width * width) + (length * length); 
+        temp = (width * width) + (length * length);
         finalDiag = squareRoot(temp);
         return finalDiag;
     }
@@ -139,7 +140,7 @@ public static class MathHelpers {
     public static decimal findAreaNonagon(decimal sideLength)
     {
         decimal finalArea = 6.18182M * power(sideLength, 2);
-        return finalArea; 
+        return finalArea;
     }
     public static decimal findPerimeterNonagon(decimal sideLength)
     {
@@ -268,7 +269,7 @@ public static class MathHelpers {
             itr++;
         }
     }
-    public static decimal power(decimal num1, decimal num2) 
+    public static decimal power(decimal num1, decimal num2)
     {
         int count = 1;
         decimal pow = num1;

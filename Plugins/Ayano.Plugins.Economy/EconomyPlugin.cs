@@ -14,9 +14,9 @@ namespace Ayano.Plugins.Economy;
 public sealed class EconomyPlugin : PluginDescriptor
 {
     public override string Name => "Economy";
-    
+
     public override string Description => "Commands to make some money.";
-    
+
     public override Result ConfigureServices(IServiceCollection serviceCollection)
     {
         serviceCollection.AddSingleton<Database>();

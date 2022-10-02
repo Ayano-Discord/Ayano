@@ -14,14 +14,14 @@ namespace Ayano.Plugins.Leveling;
 public sealed class LevelingPlugin : PluginDescriptor
 {
     public override string Name => "Leveling";
-    
+
     public override string Description => "Contains Leveling related commands for Ayan.";
 
     public override Result ConfigureServices(IServiceCollection serviceCollection)
     {
         serviceCollection.AddSingleton<HttpClientHelper>();
         serviceCollection.AddSingleton<ImageGenerator>();
-        
+
         serviceCollection.AddCommandTree()
             .WithCommandGroup<ProfileSet>()
             .WithCommandGroup<ProfileCommand>();

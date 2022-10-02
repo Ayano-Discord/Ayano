@@ -55,7 +55,7 @@ public class ProfileSet : CommandGroup
                 return await _channelApi.CreateMessageAsync(
                     _context.ChannelID,
                     "If you do not provide an image link or a number from 1-4, then you MUST provide 1 Attached image");
-            
+
             url = _context.Message.Attachments.Value[0].Url;
 
 
@@ -72,7 +72,7 @@ public class ProfileSet : CommandGroup
 
             return await _channelApi.CreateMessageAsync(_context.ChannelID,
                 "Successfully updated your profile card background!");
-            
+
         }
 
 

@@ -75,17 +75,17 @@ namespace Ayano.Core.Services.CodePaste
             var cleanCode = FormatUtilities.FixIndentation(content);
 
             return new Embed
-                {
-                    Title = "Your message was re-uploaded",
-                    Description = cleanCode.Trim().Truncate(200, 6),
-                    Fields = new EmbedField[] {
+            {
+                Title = "Your message was re-uploaded",
+                Description = cleanCode.Trim().Truncate(200, 6),
+                Fields = new EmbedField[] {
                         new ("Auto-Paste", url, true)
                     },
-                    Colour = Color.FromArgb(1, 95, 186, 125)
-                };
+                Colour = Color.FromArgb(1, 95, 186, 125)
+            };
         }
     }
-    
+
     public static class Extensions
     {
         public static string Truncate(this string value, int maxLength, int maxLines, string suffix = "…")
@@ -98,7 +98,7 @@ namespace Ayano.Core.Services.CodePaste
             }
 
             var lines = value.Split("\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-                
+
             return lines.Length > maxLines ? string.Join("\n", lines.Take(maxLines)) : $"{value.Substring(0, maxLength).Trim()}{suffix}";
         }
     }

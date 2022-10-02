@@ -39,7 +39,7 @@ public class Program
             .GetAwaiter()
             .GetResult();
     }
-    
+
     private static async Task InitAsync(string[] args)
     {
         using (
@@ -57,11 +57,11 @@ public class Program
             SetBlankCache();
 
             var cache = Services.GetRequiredService<ICacheService>();
-            
+
             Console.WriteLine(cache.Get<int>("global:guildCount").Some());
-            
+
             var gatewayClient = Services.GetRequiredService<DiscordGatewayClient>();
-            
+
             var metrics = new KestrelMetricServer(6000);
 
             try { metrics.Start(); } catch { /* ignored */ }
@@ -74,7 +74,7 @@ public class Program
             }
 
             await gatewayClient.RunAsync(new CancellationToken());
-            
+
             await metrics.StopAsync();
 
         }
@@ -94,7 +94,7 @@ public class Program
 
         var host = Host.CreateDefaultBuilder()
             .ConfigureAppConfiguration(configuration =>
-            { 
+            {
                 configuration.SetBasePath(Directory.GetCurrentDirectory());
                 configuration.AddJsonFile("appSettings.json", true, false);
                 configuration.AddUserSecrets("Onii-Chan-Ayano", false);
@@ -151,7 +151,7 @@ public class Program
 
         return host.Services;
     }
-    
+
     private static void SetBlankCache()
     {
         var cache = Services.GetRequiredService<ICacheService>();

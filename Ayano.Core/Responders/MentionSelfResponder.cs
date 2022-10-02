@@ -41,7 +41,7 @@ public class MentionSelfResponder : IResponder<IMessageCreate>
 
         var result = await _discordRestChannelApi.CreateMessageAsync(
             gatewayEvent.ChannelID,
-            embeds: new[] {embed}
+            embeds: new[] { embed }
             , ct: ct);
 
         return result.IsSuccess

@@ -11,7 +11,7 @@ using RemoraResult = Remora.Results.Result;
 
 namespace Ayano.Plugins.Fun.Commands;
 
-public class HackCommand: CommandGroup
+public class HackCommand : CommandGroup
 {
     private readonly IDiscordRestChannelAPI _channelApi;
     private readonly MessageContext _context;
@@ -24,7 +24,7 @@ public class HackCommand: CommandGroup
         _channelApi = channelApi;
         _context = context;
     }
-    
+
     [Command("hack", "funnyhacck", "dox")]
     [Description("Run some sus hacks on a user...")]
     public async Task<RemoraResult> Hack(IGuildMember member)
