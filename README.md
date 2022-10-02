@@ -1,10 +1,5 @@
 # Ayano
-Hello! For information about me please refer to the main branch's [README.MD](https://github.com/Ayano-Discord/Ayano/blob/main/README.md).
-
-## V1/CSharp
-Hello there! Welcome to the CSharp version of Ayano. This code is a WIP and any PRs (Please read to more info about this below) are welcome!
-
-This version is being written to use Remora.Discord to communicate with the discord API. 
+A multipurpose discord bot that is being written in C#!. 
 
 ## Contributing
 
