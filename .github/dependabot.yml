@@ -1,17 +1,5 @@
 version: 2
-updates:
-- package-ecosystem: nuget
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "08:00"
-    timezone: Australia/Melbourne
-  open-pull-requests-limit: 100
-  reviewers:
-  - Chii-Onan
-  assignees:
-  - Chii-Onan
-  
+updates:  
 - package-ecosystem: github-actions
   directory: "/"
   schedule:
