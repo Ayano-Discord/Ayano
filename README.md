@@ -1,5 +1,5 @@
 # Ayano
-A multipurpose discord bot that is being written in C#!
+A multipurpose discord bot that is being written in TypeScript!
 
 ## Contributing
 
